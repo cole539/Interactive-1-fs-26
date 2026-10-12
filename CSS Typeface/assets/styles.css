@@ -1,0 +1,79 @@
+body {
+  background-color: #e3e3fc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover {
+  color: cadetblue;
+}
+
+/* #txt {
+  position: static;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font: 12px, black;
+} */
+
+#page {
+  height: 64vw;
+  /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.letters {
+  width: 12vw;
+  height: 16vw;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.block {
+  width: 4vw;
+  height: 4vw;
+  background-color: transparent;
+  overflow: hidden;
+  float: left;
+  transition: transform 1s;
+}
+
+.quarter-circle {
+  width: 200%;
+  height: 200%;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.solid {
+  background-color: black;
+}
+
+.r-90deg {
+  transform: rotate(90deg);
+}
+
+.r-180deg {
+  transform: rotate(180deg);
+}
+
+.r-270deg {
+  transform: rotate(270deg);
+}
+
+.block:hover {
+  transform: rotate(-90deg);
+}
+
+/* @keyframes spinner {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+} */
+
+/* .top-right {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 0% 100% 0% 0%;
+} */
